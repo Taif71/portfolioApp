@@ -56,7 +56,8 @@ class App extends Component<{}, {}> {
                         '\n❓Type help (and press enter or return) to get started!\n'+
                         '❓Type clear to clean the terminal\n'+
                         '❓You can also click on the green dot on top to maximize the console.\n' +
-                        `⏱${new Date()}`
+                        `⏱${new Date()}` + 
+                        '\nThe page is frequently updated.'
                     }
                 />
             </div>

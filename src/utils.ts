@@ -81,9 +81,14 @@ export const manliness = ():String => {
         
 };
 export const books = ():String => {
-    return "Book Recommendations\n"+
-    "Fiction: I haven't gotten into Fiction. Please Recommend me some through email)\n\n"  + 
-    "Non-Fiction: \n1. Atomic Habits \n2. Models: attract women through honesty \n3. Can't Hurt Me \n4. The obstacle is the way and more..."
+    return `Book Recommendations
+Fiction: I haven't gotten into Fiction. Please Recommend me some through email)
+
+Non-Fiction: 
+1. Atomic Habits 
+2. Models: attract women through honesty 
+3. Can't Hurt Me 
+4. The obstacle is the way and more...`
         
 };
 
