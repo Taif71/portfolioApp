@@ -17,9 +17,9 @@ export const help = ():String => {
         // 'photography - takes you to my flickr profile\n' +
         '8. github - Takes you to my github profile\n' +
         '9. manliness - Philosophy behind what it means to be a Man\n' +
-        '10. books - My list of Book Recommendations' + 
-        '11. films - My Film Making journey' + 
-        '12. tech - List of techs that I am currently focusing'
+        '10. books - My list of Book Recommendations\n' + 
+        '11. films - My Film Making journey\n' + 
+        '12. tech - List of techs that I am currently focusing\n'
 
 
     return helpMenu;
@@ -43,6 +43,10 @@ export const interests = ():String => information.interestedIn;
 export const tech = ():String => {
     return "I am a Computer Science major. I graduated from North South University." + "\nI am currently working with MERN stack. However, looking to get into Django.\n\n" + 
     "AI and Data Science: This field seems cool. Looking to dive in soon..."
+};
+
+export const next = ():String => {
+    return "Currently I am working on my Tech Algorithmic Interview skills and Calisthenics."
 };
 
 // export const publications = ():String => {
@@ -76,8 +80,7 @@ export const manliness = ():String => {
     return "This is a philosophy that I'm trying to constantly learn and upgrade. It requires a lot of free thinking and seeking new knowledge. which I struggle to do sometimes as well." +
     "Men should be men. And my childhood experiences of being the nice guy largely affected me. Until I decided to learn how to be a Man." + 
     "I had to go through many internal challenges. Those who are introvert from childhood will understand the struggle. I'll be updating this here and my philosophy of being a man once my blog is up." + 
-    "Some of the transformation I had to go through (till now)\n 1.Face my fears 2. Learn to deal with my insecurities 3. Approach Girls and learn to attract women 4.Talk to strangers etc. I am still working on myself so..."
-        
+    "Some of the transformation I had to go through (till now)\n 1.Face my fears 2. Learn to deal with my insecurities 3. Approach Girls and learn to attract women 4.Talk to strangers etc. I am still working on myself so...";
         
 };
 export const books = ():String => {

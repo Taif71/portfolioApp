@@ -12,7 +12,8 @@ import {
     manliness,
     books,
     films,
-    tech
+    tech,
+    next
 } from './utils';
 
 class App extends Component<{}, {}> {
@@ -48,7 +49,8 @@ class App extends Component<{}, {}> {
                         'manliness': () => manliness(),
                         'books': () => books(),
                         'films': () => films(),
-                        'tech': () => tech()
+                        'tech': () => tech(),
+                        'next': () => next()
                     }}
                     msg={                        
                         '       Welcome to my About Me Site.\n   I am Mohammad Tasneemul Alam Bakshi.\n\n' + 
